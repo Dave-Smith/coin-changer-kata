@@ -9,4 +9,12 @@ namespace coin_changer
             Console.WriteLine("Hello World!");
         }
     }
+
+    public class Change
+    {
+        public static int[] Make(int money)
+        {
+            return new int[] { };
+        }
+    }
 }
